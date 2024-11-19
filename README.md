@@ -42,7 +42,7 @@ console.log(products);
 2. Get Products Owned
 
 ```
-const collectionId = 'your-collection-id';
+const collectionId = 'your-collection-id';// collectionId is optional; to filter based on a specific collection
 const ownedProducts = await marketplaceApi.products.getOwned(collectionId);
 console.log(ownedProducts);
 ```
